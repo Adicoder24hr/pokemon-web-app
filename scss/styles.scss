@@ -1,0 +1,51 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.point {
+  cursor: pointer;
+}
+
+.pokeImg{
+  width: 300px;
+  height: 300px;
+}
+
+.pokePara{
+  font-size: 20px;
+}
+
+.btn{
+  border: none;
+  padding: 10px 20px;
+  background: none;
+  background-color: rgb(249, 51, 84);
+  border-radius: 10px;
+  color: white;
+
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}
+
